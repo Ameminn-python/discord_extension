@@ -79,4 +79,14 @@ body{
   color         : #1a1aff;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
 }
+.cp_iptxt input[type='number'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 1px;
+    padding-left: 4em;
+}
+.cp_iptxt input[type='number']:focus {
+    outline: none;
+}
  
