@@ -14,3 +14,4 @@ async def to_send(id:int,ctn:str):
     else:
         return 'succsess'
     
+bot.run(token)
