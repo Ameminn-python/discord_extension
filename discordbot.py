@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
 import discord 
 from discord.ext import commands
 
 bot = commands.Bot(prefix='/')
+token = ""
 
 async def to_send(id:int,ctn:str):
     try:
